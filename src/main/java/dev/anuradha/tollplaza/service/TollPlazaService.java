@@ -20,7 +20,7 @@ public class TollPlazaService {
 
     private final TollPlazaRepository repository;
     private final RouteService routeService;
-`
+
     public TollPlazaResponseDTO getTollPlazasOnRoute(TollPlazaRequestDTO request){
         String source = request.getSourcePincode();
         String dest = request.getDestinationPincode();
